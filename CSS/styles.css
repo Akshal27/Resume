@@ -1,0 +1,170 @@
+
+.body_site {
+  margin:0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+
+}
+
+h1 {
+  font-size: 5.625rem;
+  font-family: 'Sacramento', cursive;
+  color: #66BFBF;
+  margin-top: 50px auto 0 auto;
+}
+
+h2 {
+  color: #66BFBF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+
+}
+
+h3 {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  font-weight:bold;
+
+
+}
+a{
+   color: #11999E;
+}
+
+
+.top-container {
+  background-color: #EAF6F6;
+  position: relative;
+  padding-top: 100px;
+
+
+}
+
+a{
+  color: #11999E;
+  font-family:'Montserrat',sans-serif;
+  text-decoration: none;
+  margin: 10px 20px;
+}
+a::hover{
+  color:#EAF6F6
+}
+.bottom-container{
+  padding:50px 0 20px;
+  background-color: #66BFBF;
+
+}
+
+.cloud1 {
+  /*margin:5% 0 0 30%;*/
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.cloud2 {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+span{
+  font-weight: normal;
+}
+
+.skill-row{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align:left;
+  line-height: 2;
+
+
+}
+.ui-design{
+  float: left;
+  width:18%;
+  margin-right: 30px;
+}
+.python{
+  float: right;
+  width:18%;
+  margin-left: 30px;
+}
+
+p{
+  color: #40514E;
+  font-weight: bold;
+  line-height: 2;
+}
+
+hr{
+   border-style: none;
+   border-top: 7px dotted #EAF6F6;
+   width: 5%;
+}
+.profile{
+  padding-top: 60px;
+  padding-bottom: 60px;
+
+}
+.desc{
+  text-align: center;
+  width: 40%;
+  margin: auto;
+
+
+}
+
+.copyright{
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding:20px 0;
+
+}
+.second_h{
+  padding-top: 60px;
+}
+
+
+.btn {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  -webkit-border-radius: 9;
+  -moz-border-radius: 9;
+  border-radius: 9px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  line-height: 3;
+
+
+}
+
+
+.btn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+
+.desc2{
+  margin: 50px auto 20px ;
+}
+
+/* how clear works
+.ui_design_desc{
+  clear:left;
+}
+.python_desc{
+  clear: right;
+}
+*/
